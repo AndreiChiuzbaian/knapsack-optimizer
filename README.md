@@ -1,6 +1,7 @@
 Name: Andrei Chiuzbaian </br>
 Email: andrei.chiuzbaian@gmail.com
 
+[![Build Status](https://dev.azure.com/AndreiLearningDevOps/Amazing%20App/_apis/build/status/Amazing%20App?branchName=main)](https://dev.azure.com/AndreiLearningDevOps/Amazing%20App/_build/latest?definitionId=1&branchName=main)
 
 **Instructions** (How to unpack, build and execute the knapsack-optimizer solution) </br>
 
