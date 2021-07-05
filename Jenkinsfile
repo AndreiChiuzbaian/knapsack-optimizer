@@ -6,17 +6,17 @@ pipeline {
     
     stage("build") {
        steps {
-         input ('building the application, do you wish to continue?')
+         input ('Building the application... Do you wish to proceed to testing phase?')
       }
     }
      stage("test") {
        steps {
-         echo 'testing the application...'
+         input ('Testing the application... Do you wish to proceed to deploying stage?')
       }
     }
      stage("deploy") {
        steps {
-         echo 'deploying the application...'
+         input ('Deploying the application... Do you wish to proceed and deploy the app?')
       }
     }
   }
