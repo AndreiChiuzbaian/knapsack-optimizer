@@ -6,7 +6,7 @@ pipeline {
     
     stage("build") {
        steps {
-         echo 'building the application, do you wish to continue?'
+         input ('building the application, do you wish to continue?')
       }
     }
      stage("test") {
