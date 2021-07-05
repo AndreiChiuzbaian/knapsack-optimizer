@@ -7,7 +7,7 @@ pipeline {
     stage("build") {
        steps {
          input ('Building the application... Do you wish to proceed to testing phase?')
-         javac HelloWorld.java
+         javac Knapsack.java
       }
     }
      stage("test") {
